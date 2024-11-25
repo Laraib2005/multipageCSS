@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
-
+import { FaShoppingCart } from 'react-icons/fa'
 const Header = () => {
     return (
         <header className='header'>
@@ -10,6 +10,7 @@ const Header = () => {
                 <Link href="/about">About</Link>
                 <Link href="/shop">ShopNow</Link>
                 <Link href="contact">contact</Link>
+                <FaShoppingCart/>
             </nav>
         </header>
     )
